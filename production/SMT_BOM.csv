@@ -1,0 +1,12 @@
+Reference,Value,Datasheet,Footprint,Qty,DNP,Digikey PN,JLCPCB PN
+"C3,C4,C5,C6,C7,C8",10n,~,Capacitor_SMD:C_0805_2012Metric,6,,,C1710
+"C9,C10,C11,C12,C13,C14,C15,C16,C17,C18,C19,C20,C21,C22,C25",100n,~,Capacitor_SMD:C_0805_2012Metric,15,,,C28233
+C23,330n,~,Capacitor_SMD:C_0805_2012Metric,1,,,C1740
+C24,"10u, tantalum",~,Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A,1,,,C7171
+"J11,J12",Conn_01x10_Pin,~,Connector_JST:JST_ZH_B10B-ZR_1x10_P1.50mm_Vertical,2,,455-S10B-ZR-ND,
+"R1,R2,R3,R12,R13,R14,R23,R24,R39,R40,R41,R42,R43",10k,~,Resistor_SMD:R_0805_2012Metric,13,,,C17414
+"R4,R15,R25,R26,R44,R45",100,~,Resistor_SMD:R_0805_2012Metric,6,,,C17408
+R49,4.7k,~,Resistor_SMD:R_0805_2012Metric,1,,,C17673
+U8,MCP23017_SO,http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf,Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm,1,,MCP23017-E/SO-ND,
+U9,ADS1115IDGS,http://www.ti.com/lit/ds/symlink/ads1113.pdf,Package_SO:TSSOP-10_3x3mm_P0.5mm,1,,,C37593
+U10,MCP4728,http://ww1.microchip.com/downloads/en/DeviceDoc/22187E.pdf,Package_SO:MSOP-10_3x3mm_P0.5mm,1,,,C108207

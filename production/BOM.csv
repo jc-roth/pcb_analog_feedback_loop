@@ -1,0 +1,31 @@
+Reference,Value,Datasheet,Footprint,Qty,DNP,Digikey PN,JLCPCB PN
+"C1,C2",C,~,Capacitor_THT:C_Disc_D7.0mm_W2.5mm_P5.00mm,2,,,
+"C3,C4,C5,C6,C7,C8",10n,~,Capacitor_SMD:C_0805_2012Metric,6,,,C1710
+"C9,C10,C11,C12,C13,C14,C15,C16,C17,C18,C19,C20,C21,C22,C25",100n,~,Capacitor_SMD:C_0805_2012Metric,15,,,C28233
+C23,330n,~,Capacitor_SMD:C_0805_2012Metric,1,,,C1740
+C24,"10u, tantalum",~,Capacitor_Tantalum_SMD:CP_EIA-3216-18_Kemet-A,1,,,C7171
+C26,2.2u,~,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,1,,,
+C27,1u,~,Capacitor_THT:CP_Radial_D6.3mm_P2.50mm,1,,,
+J1,primary error in,~,Connector_Coaxial:SMA_Amphenol_132289_EdgeMount,1,,ACX1426-ND,
+J3,primary control out,~,Connector_Coaxial:SMA_Amphenol_132289_EdgeMount,1,,ACX1426-ND,
+J4,secondary error in,~,Connector_Coaxial:SMA_Amphenol_132289_EdgeMount,1,,ACX1426-ND,
+J6,secondary control out,~,Connector_Coaxial:SMA_Amphenol_132289_EdgeMount,1,,ACX1426-ND,
+J7,Conn_01x05,~,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,1,,,
+"J11,J12",Conn_01x10_Pin,~,Connector_JST:JST_ZH_B10B-ZR_1x10_P1.50mm_Vertical,2,,455-S10B-ZR-ND,
+"J15,J16",Conn_01x04_Pin,~,Connector_JST:JST_PH_S4B-PH-K_1x04_P2.00mm_Horizontal,2,,455-1721-ND,
+"R1,R2,R3,R12,R13,R14,R23,R24,R39,R40,R41,R42,R43",10k,~,Resistor_SMD:R_0805_2012Metric,13,,,C17414
+"R4,R15,R25,R26,R44,R45",100,~,Resistor_SMD:R_0805_2012Metric,6,,,C17408
+"R5,R6,R7,R8,R9,R10,R11,R16,R17,R18,R19,R20,R21,R22,R27,R28,R29,R30,R31,R32,R33,R34,R35,R36,R37,R38",R,~,Resistor_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P2.54mm_Vertical,26,,,
+R49,4.7k,~,Resistor_SMD:R_0805_2012Metric,1,,,C17673
+"RV1,RV3",500k,~,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,2,,,
+"RV2,RV4",20k,~,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,2,,,
+SW1,primary polarity,~,Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q,1,,CKN10397-ND,
+SW2,secondary polarity,~,Button_Switch_THT:SW_Slide_SPDT_Straight_CK_OS102011MS2Q,1,,CKN10397-ND,
+"TP1,TP2,TP3,TP4,TP5,TP6,TP7,TP8,TP9",TestPoint,~,TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm,9,,,
+"U1,U4,U5",AD823,,Package_DIP:DIP-8_W7.62mm,3,,AD823ANZ-ND,
+"U2,U3,U6,U7",ADG419BN,https://www.analog.com/media/en/technical-documentation/data-sheets/ADG419.pdf,Package_DIP:DIP-8_W7.62mm,4,,505-ADG419BNZ-ND,
+U8,MCP23017_SO,http://ww1.microchip.com/downloads/en/DeviceDoc/20001952C.pdf,Package_SO:SOIC-28W_7.5x17.9mm_P1.27mm,1,,MCP23017-E/SO-ND,
+U9,ADS1115IDGS,http://www.ti.com/lit/ds/symlink/ads1113.pdf,Package_SO:TSSOP-10_3x3mm_P0.5mm,1,,,C37593
+U10,MCP4728,http://ww1.microchip.com/downloads/en/DeviceDoc/22187E.pdf,Package_SO:MSOP-10_3x3mm_P0.5mm,1,,,C108207
+U11,LM7809_TO220,https://www.onsemi.cn/PowerSolutions/document/MC7800-D.PDF,Package_TO_SOT_THT:TO-220-3_Vertical,1,,,
+U12,LM7909_TO220,https://www.onsemi.com/pub/Collateral/MC7900-D.PDF,Package_TO_SOT_THT:TO-220-3_Vertical,1,,,
